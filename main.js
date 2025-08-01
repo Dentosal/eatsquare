@@ -160,7 +160,7 @@ const isHighScore = () => {
         highscores = { normal: [], nightmare: [] };
     }
     let currentHighscores = nightmare_mode ? highscores.nightmare : highscores.normal;
-    return (currentHighscores.length === 0 || currentHighscores[currentHighscores.length - 1] < Math.floor(player.score));
+    return (currentHighscores.length === 0 || currentHighscores[currentHighscores.length - 1].score < Math.floor(player.score));
 }
 
 const insertHighScore = (mode, nick, score) => {
