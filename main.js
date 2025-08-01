@@ -115,7 +115,7 @@ const randomFakeHighscore = mode => {
         highscores = { normal: [], nightmare: [] };
     }
     if (highscores[mode].length === 0) {
-        return Math.floor(Math.random() * 10000) * (mode == 'nightmare' ? 0.5 : 1);
+        return Math.floor(Math.random() * 10000) * (mode == 'nightmare' ? 0.2 : 1);
     } else {
         let min = highscores[mode][highscores[mode].length - 1].score + 1;
         let max = Math.floor(highscores[mode][0].score * (mode == 'nightmare' ? 1.5 : 2.5));
