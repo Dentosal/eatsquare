@@ -1,0 +1,1 @@
+I was requested a remake of a game I made in 2014. Here it is. Highscores are no longer synced on server, and instead fake ones fill appear. Have fun! https://dentosal.github.io/eatsquare/
